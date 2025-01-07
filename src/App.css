@@ -189,3 +189,29 @@ background-color: #9f795d;
 transform: scale(1.1);
 }
 
+
+
+@media (max-width: 600px) {
+  .logo {
+    display: block;
+    margin: 0 auto; 
+  }
+
+  .canvas-title {
+    text-align: center;
+    margin-top :100px;
+  }
+}
+@media (max-width: 1000px){
+
+  .logo {
+    display: block;
+    align-items: center;
+    margin: 0 auto; 
+  }
+
+  .canvas-title {
+    text-align: center;
+    margin-top :100px;
+  }
+}
